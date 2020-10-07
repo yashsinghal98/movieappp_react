@@ -1,0 +1,44 @@
+body
+{
+  height:100vh;
+  width:100vw;
+}
+.Box {
+  font-family: sans-serif;
+  text-align: center;
+  height:700px;
+  width:50%;
+  border: black solid;
+  position: relative;
+  left:25%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+.cell
+{
+  margin-bottom:5%;
+  height:40%;
+  width:30%;
+  border: black solid;
+  margin:5%;
+  display:flex;
+  flex-direction :column;
+}
+.info
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height:80%;
+}
+.wis
+{
+  background-color:white;
+}
+.wis1
+{
+  background-color: red;
+}
